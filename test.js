@@ -1,6 +1,8 @@
-export function holaMundo(nombre) {
-  return `hola mundo para ${nombre}`;
+export function helloWorldAndSum(nombre, numero1, numero2) {
+  const sum = numero1 + numero2;
+  return `Hello world for ${nombre} and the sum is ${sum}`;
 }
-function goodbyeWorld (nombre) {
+
+export function goodbyeWorld (nombre) {
   return `Good bye ${nombre}`;
 }
