@@ -1,1 +1,3 @@
-console.log('hola')
+function goodbyeWorld (nombre) {
+  return `Good bye ${nombre}`;
+}
